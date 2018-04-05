@@ -1,4 +1,7 @@
 import React, {Component} from 'react'
+import styles from './likeDislike.css'
+
+console.log('styles', styles)
 class LikeDislike extends Component {
     constructor(props){
         super(props);
@@ -20,7 +23,6 @@ class LikeDislike extends Component {
         })
     }
     render(){
-        
         const {showLike, showDislike} = this.props;
         const {likeCounter, dislikeCounter} = this.state;
 
