@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
           <h1 className="App-title">Like/Dislike Component</h1>
-          <LikeDislike/>
+          <LikeDislike showLike={true} showDislike={true} />
       </div>
     );
   }
